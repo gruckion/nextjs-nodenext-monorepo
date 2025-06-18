@@ -22,10 +22,7 @@
     "node": ">=20"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
-      "core-js-pure",
-      "sharp"
-    ],
+    "onlyBuiltDependencies": ["core-js-pure", "sharp"],
     "patchedDependencies": {
       "next@15.2.3": "patches/next@15.2.3.patch"
     }
