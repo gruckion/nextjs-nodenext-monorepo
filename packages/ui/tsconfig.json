@@ -4,7 +4,12 @@
     "baseUrl": ".",
     "paths": {
       "@workspace/ui/*": ["./src/*"]
-    }
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": ["."],
   "exclude": ["node_modules", "dist"]

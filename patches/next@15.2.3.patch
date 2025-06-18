@@ -1,0 +1,11 @@
+diff --git a/link.d.ts b/link.d.ts
+index eb83179a5d2fde0606b9353b1d3b0ca77aa083f8..3b492a20627c6482312458abfcbfb2a02d025f1a 100644
+--- a/link.d.ts
++++ b/link.d.ts
+@@ -1,3 +1,3 @@
+-import Link from './dist/client/link'
+-export * from './dist/client/link'
+-export default Link
++import Link from "./dist/client/link";
++export * from "./dist/client/link";
++export = Link;
